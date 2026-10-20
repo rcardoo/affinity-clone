@@ -1,0 +1,42 @@
+.novidade {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3em;
+}
+
+.novidade-content {
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+.novidade-title {
+    font-family: Bodoni Moda, serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+.novidade-subtitle {
+    text-align: center;
+}
+
+.novidade-content-imagens {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    padding: 20px;
+    gap: 2em;
+
+    a {
+        display: block;
+        transition: transform 0.2s ease;
+    }
+
+    a:hover {
+        transform: scale(1.02);
+    }
+}

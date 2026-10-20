@@ -1,0 +1,19 @@
+.inspiracao-container {
+    background-color: white;
+    height: 600px;
+    color: black;
+    padding-top: 30px;
+}
+
+.figure-texto {
+    color: black;
+    text-decoration: none;
+}
+
+.link-texto {
+    text-decoration: none;
+}
+
+.link-texto:hover {
+    text-decoration: underline black;
+}

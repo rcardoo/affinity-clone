@@ -1,0 +1,43 @@
+.brands {
+    background-color: #a7f175;
+    color: black;
+    height: 50px;
+    align-content: center;
+}
+
+.brands-scroll {
+    overflow: hidden;
+    width: 100%;
+}
+
+.brands-list {
+    width: max-content;
+    animation: brands-scroll 30s linear infinite;
+}
+
+.brands-list p {
+    margin: 0 3rem 0 0;
+    font-weight: 600;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.brands-scroll:hover .brands-list {
+    animation-play-state: paused;
+}
+
+@keyframes brands-scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .brands-list {
+        animation: none;
+    }
+}

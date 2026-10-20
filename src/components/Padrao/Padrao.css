@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+.padrao-container {
+    background-color: #211D1D;
+    padding-block: 2em;
+    overflow: hidden;
+    padding-top: 5em;
+}
+
+.padrao-titulo {
+    font-family: Bodoni Moda, serif;
+    font-weight: 700;
+}
